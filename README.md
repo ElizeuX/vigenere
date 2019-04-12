@@ -9,8 +9,7 @@ Programa para criptografia usando o método de Vigenère.
 >Python file system cipher.. vigenere [-h] (-c CRYPT | -d DECRYPT)
                                              [-v] -k KEY
                                              
-
-'''
+```
 optional arguments:
   -h, --help            mostra as opções de linha de comando
   -c CRYPT, --crypt CRYPT
@@ -18,4 +17,4 @@ optional arguments:
   -d DECRYPT, --decrypt DECRYPT
                         palavra a ser descriptografada  
   -k KEY, --key KEY     especifica a palavra-chave
-'''
+```
