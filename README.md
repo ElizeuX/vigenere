@@ -18,3 +18,24 @@ optional arguments:
                         palavra a ser descriptografada  
   -k KEY, --key KEY     especifica a palavra-chave
 ```
+
+## EXEMPLOS
+### Criptografar a palavra  "maj arthur gibson"
+
+```
+python vigenere.py  -k "WHITE STREET" -c "maj arthur gibson"
+
+Resultado:
+
+>> IHRTVSZNIKMUOVV
+
+```
+
+
+```
+python vigenere.py  -k "WHITE STREET" -d "IHRTVSZNIKMUOVV"
+
+Resultado:
+
+>> MAJARTHURGIBSON
+```
