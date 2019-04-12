@@ -31,7 +31,7 @@ Resultado:
 
 ```
 
-
+### Descriptografar a palavra anterior
 ```
 python vigenere.py  -k "WHITE STREET" -d "IHRTVSZNIKMUOVV"
 
