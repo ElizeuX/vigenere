@@ -6,9 +6,9 @@ Programa para criptografia usando o método de Vigenère.
 
 ## USO
 
->Python file system cipher.. vigenere [-h] (-c CRYPT | -d DECRYPT)
-                                             [-v] -k KEY
-                                             
+>Python file system cipher.. vigenere [-h] -k KEY
+                                        (-c CRYPT | -d DECRYPT)
+                                                                                           
 ```
 optional arguments:
   -h, --help            mostra as opções de linha de comando
